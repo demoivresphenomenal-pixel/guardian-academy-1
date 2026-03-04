@@ -68,6 +68,8 @@ Result: 0–100, where 100 = exceptional institutional integrity
 npm install --legacy-peer-deps
 ```
 
+**Note:** `--legacy-peer-deps` is required because the monorepo mixes Next.js (React 18) and Expo (React 19). This flag safely resolves the version conflict without breaking either app.
+
 ### Run All Services
 ```bash
 # All apps/packages simultaneously
